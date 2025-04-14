@@ -1,5 +1,6 @@
 package com.pard5.seminar4.user;
 import com.pard5.seminar4.book.BookRes;
+import com.pard5.seminar4.card.CardRes;
 import lombok.*;
 
 import java.util.List;
@@ -12,4 +13,5 @@ public class UserRes {
     private Long id;
     private String name;
     private List<BookRes> books;
+    private CardRes card;
 }
